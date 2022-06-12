@@ -1,0 +1,43 @@
+.carousel .overlay {
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50);
+    left: 20%;
+    padding: 0.4rem 1.5rem;
+    text-align: left;
+    background: gray;
+    opacity: 0.75;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.carousel .overlay-title{
+    margin: 0.8rem 0 1rem 0;
+    
+}
+
+.carousel .thumbs{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.carousel .thumb{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.carousel{
+    position: relative;
+    
+}
+.carousel .contents
+{
+    margin-left: 200px;
+}
+
+.carousel .control-dots
+{
+    margin-left: 110px;
+}
